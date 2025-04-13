@@ -1,0 +1,1 @@
+console.log('TRADER M1 SYSTEM is running');
