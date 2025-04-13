@@ -1,1 +1,4 @@
-body { font-family: Arial; background: #eef; padding: 20px; } button { padding: 10px; font-size: 16px; }
+body { font-family: Arial, sans-serif; background: #f0f0f0; padding: 20px; }
+h1 { color: #333; }
+button { padding: 10px 20px; font-size: 16px; margin-bottom: 20px; }
+#output div { background: #fff; padding: 10px; margin-bottom: 10px; border-radius: 6px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }

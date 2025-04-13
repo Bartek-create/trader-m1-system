@@ -1,1 +1,137 @@
-{ "markets": ["COFFEE", "COTTON", "CORN", "SUGAR", "SOYBEAN", "COCOA", "WHEAT", "PLATINUM", "LEAN HOGS", "SILVER", "XAUUSD", "COPPER", "NATURAL GAS", "US500", "OIL"], "status": "real" }
+[
+  {
+    "market": "COFFEE",
+    "trend": "up",
+    "seasonality": "spadki",
+    "cot": {
+      "direction": "wzrosty",
+      "value": "+57000"
+    }
+  },
+  {
+    "market": "COTTON",
+    "trend": "down",
+    "seasonality": "wzrosty",
+    "cot": {
+      "direction": "spadki",
+      "value": "-43000"
+    }
+  },
+  {
+    "market": "CORN",
+    "trend": "up",
+    "seasonality": "konsolidacja",
+    "cot": {
+      "direction": "konsolidacja",
+      "value": "+2000"
+    }
+  },
+  {
+    "market": "SUGAR",
+    "trend": "down",
+    "seasonality": "wzrosty",
+    "cot": {
+      "direction": "wzrosty",
+      "value": "+32000"
+    }
+  },
+  {
+    "market": "SOYBEAN",
+    "trend": "consolidation",
+    "seasonality": "spadki",
+    "cot": {
+      "direction": "spadki",
+      "value": "-66634"
+    }
+  },
+  {
+    "market": "COCOA",
+    "trend": "up",
+    "seasonality": "wzrosty",
+    "cot": {
+      "direction": "wzrosty",
+      "value": "+21500"
+    }
+  },
+  {
+    "market": "WHEAT",
+    "trend": "down",
+    "seasonality": "spadki",
+    "cot": {
+      "direction": "spadki",
+      "value": "-51000"
+    }
+  },
+  {
+    "market": "PLATINUM",
+    "trend": "up",
+    "seasonality": "wzrosty",
+    "cot": {
+      "direction": "wzrosty",
+      "value": "+18000"
+    }
+  },
+  {
+    "market": "LEAN HOGS",
+    "trend": "consolidation",
+    "seasonality": "konsolidacja",
+    "cot": {
+      "direction": "konsolidacja",
+      "value": "+1000"
+    }
+  },
+  {
+    "market": "SILVER",
+    "trend": "up",
+    "seasonality": "wzrosty",
+    "cot": {
+      "direction": "wzrosty",
+      "value": "+40500"
+    }
+  },
+  {
+    "market": "XAUUSD",
+    "trend": "up",
+    "seasonality": "wzrosty",
+    "cot": {
+      "direction": "wzrosty",
+      "value": "+99000"
+    }
+  },
+  {
+    "market": "COPPER",
+    "trend": "down",
+    "seasonality": "konsolidacja",
+    "cot": {
+      "direction": "spadki",
+      "value": "-28000"
+    }
+  },
+  {
+    "market": "NATURAL GAS",
+    "trend": "down",
+    "seasonality": "spadki",
+    "cot": {
+      "direction": "spadki",
+      "value": "-54000"
+    }
+  },
+  {
+    "market": "US500",
+    "trend": "up",
+    "seasonality": "wzrosty",
+    "cot": {
+      "direction": "wzrosty",
+      "value": "+87000"
+    }
+  },
+  {
+    "market": "OIL",
+    "trend": "up",
+    "seasonality": "spadki",
+    "cot": {
+      "direction": "wzrosty",
+      "value": "+62000"
+    }
+  }
+]
