@@ -1,58 +1,71 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
-  <meta charset="UTF-8" />
-  <title>TRADER M1 SYSTEM</title>
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <title>TRADER M1 SYSTEM</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>TRADER M1 SYSTEM</h1>
-  <h2>Dodaj własną pozycję</h2>
-  <label>Rynek:
-    <select id="market">
-      <option>Coffee</option>
-      <option>Cotton</option>
-      <option>Corn</option>
-      <option>Sugar</option>
-      <option>Platinum</option>
-      <option>Oil</option>
-      <option>Gas</option>
-      <option>Lean Hogs</option>
-      <option>Silver</option>
-      <option>Gold</option>
-    </select>
-  </label>
-  <label>Kierunek:
-    <select id="direction">
-      <option>Kup</option>
-      <option>Sprzedaj</option>
-    </select>
-  </label>
-  <label>Cena wejścia:
-    <input type="number" id="price" />
-  </label>
-  <label>Formacja:
-    <select id="pattern">
-      <option>1-2-3</option>
-      <option>TTE</option>
-      <option>RGR</option>
-      <option>Inside Bar</option>
-      <option>Konsolidacja</option>
-    </select>
-  </label>
-  <button onclick="addTrade()">Dodaj</button>
-  <table>
-    <thead>
-      <tr>
-        <th>Rynek</th>
-        <th>Kierunek</th>
-        <th>Cena wejścia</th>
-        <th>Formacja</th>
-        <th>Usuń</th>
-      </tr>
-    </thead>
-    <tbody id="tradesTable"></tbody>
-  </table>
-  <script src="app.js"></script>
+    <h1>TRADER M1 SYSTEM</h1>
+    <h2>Dodaj własną pozycję</h2>
+    <div class="form">
+        <label for="market">Rynek:</label>
+        <select id="market">
+            <option value="Coffee">Coffee</option>
+            <option value="Corn">Corn</option>
+            <option value="Cotton">Cotton</option>
+            <option value="Sugar">Sugar</option>
+            <option value="Soybean">Soybean</option>
+            <option value="Cocoa">Cocoa</option>
+            <option value="Wheat">Wheat</option>
+            <option value="Platinum">Platinum</option>
+            <option value="Lean Hogs">Lean Hogs</option>
+            <option value="Silver">Silver</option>
+            <option value="Gold (XAUUSD)">Gold (XAUUSD)</option>
+            <option value="Copper">Copper</option>
+            <option value="Natural Gas">Natural Gas</option>
+            <option value="US500">US500</option>
+            <option value="Oil">Oil</option>
+            <option value="Bitcoin (BTCUSD)">Bitcoin (BTCUSD)</option>
+        </select>
+
+        <label for="direction">Kierunek:</label>
+        <select id="direction">
+            <option value="Kup">Kup</option>
+            <option value="Sprzedaj">Sprzedaj</option>
+        </select>
+
+        <label for="price">Cena wejścia:</label>
+        <input type="number" id="price" step="0.01">
+
+        <label for="pattern">Formacja:</label>
+        <select id="pattern">
+            <option value="1-2-3">1-2-3</option>
+            <option value="TTE">TTE</option>
+            <option value="TTE+IB">TTE+IB</option>
+            <option value="RGR">RGR</option>
+            <option value="RGR+IB">RGR+IB</option>
+            <option value="Konsolidacja">Konsolidacja</option>
+        </select>
+
+        <button onclick="addTrade()">Dodaj</button>
+        <button onclick="exportToCSV()">Eksportuj CSV</button>
+        <button onclick="clearTrades()">Wyczyść wszystkie</button>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Rynek</th>
+                <th>Kierunek</th>
+                <th>Cena wejścia</th>
+                <th>Formacja</th>
+                <th>Usuń</th>
+            </tr>
+        </thead>
+        <tbody id="tradesTable"></tbody>
+    </table>
+
+    <script src="app.js"></script>
 </body>
 </html>
