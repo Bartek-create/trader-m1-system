@@ -8,7 +8,47 @@
 <body>
   <h1>TRADER M1 SYSTEM</h1>
   <button onclick="loadData()">Odśwież dane</button>
+  <button onclick="exportCSV()">Eksportuj do CSV</button>
+
+  <h2>Dodaj pozycję</h2>
+  <form id="positionForm" onsubmit="addPosition(event)">
+    <label>Rynek:
+      <select id="market">
+        <option>COFFEE</option><option>COTTON</option><option>CORN</option>
+        <option>SUGAR</option><option>SOYBEAN</option><option>COCOA</option>
+        <option>WHEAT</option><option>PLATINUM</option><option>LEAN HOGS</option>
+        <option>SILVER</option><option>XAUUSD</option><option>COPPER</option>
+        <option>NATURAL GAS</option><option>US500</option><option>OIL</option>
+      </select>
+    </label><br>
+    <label>Formacja:
+      <select id="formation">
+        <option>1-2-3</option>
+        <option>TTE</option>
+        <option>TTE+IB</option>
+        <option>RGR</option>
+        <option>RGR+IB</option>
+        <option>Konsolidacja</option>
+      </select>
+    </label><br>
+    <label>RR:
+      <select id="rr">
+        <option>1:1</option>
+        <option>1.5:1</option>
+        <option>2:1</option>
+        <option>3:1</option>
+      </select>
+    </label><br>
+    <label>Cena wejścia: <input type="number" id="entry" required></label><br>
+    <button type="submit">Dodaj pozycję</button>
+  </form>
+
+  <h2>Twoje pozycje</h2>
+  <div id="positions"></div>
+
+  <h2>Statusy rynków</h2>
   <div id="output"></div>
+
   <script src="script.js"></script>
 </body>
 </html>
