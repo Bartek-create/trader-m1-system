@@ -1,1 +1,58 @@
-<!DOCTYPE html><html><head><title>TRADER M1 SYSTEM</title></head><body></body></html>
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <title>TRADER M1 SYSTEM</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>TRADER M1 SYSTEM</h1>
+  <h2>Dodaj własną pozycję</h2>
+  <label>Rynek:
+    <select id="market">
+      <option>Coffee</option>
+      <option>Cotton</option>
+      <option>Corn</option>
+      <option>Sugar</option>
+      <option>Platinum</option>
+      <option>Oil</option>
+      <option>Gas</option>
+      <option>Lean Hogs</option>
+      <option>Silver</option>
+      <option>Gold</option>
+    </select>
+  </label>
+  <label>Kierunek:
+    <select id="direction">
+      <option>Kup</option>
+      <option>Sprzedaj</option>
+    </select>
+  </label>
+  <label>Cena wejścia:
+    <input type="number" id="price" />
+  </label>
+  <label>Formacja:
+    <select id="pattern">
+      <option>1-2-3</option>
+      <option>TTE</option>
+      <option>RGR</option>
+      <option>Inside Bar</option>
+      <option>Konsolidacja</option>
+    </select>
+  </label>
+  <button onclick="addTrade()">Dodaj</button>
+  <table>
+    <thead>
+      <tr>
+        <th>Rynek</th>
+        <th>Kierunek</th>
+        <th>Cena wejścia</th>
+        <th>Formacja</th>
+        <th>Usuń</th>
+      </tr>
+    </thead>
+    <tbody id="tradesTable"></tbody>
+  </table>
+  <script src="app.js"></script>
+</body>
+</html>
