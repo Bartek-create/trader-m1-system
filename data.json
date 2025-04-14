@@ -1,137 +1,98 @@
 [
   {
-    "market": "COFFEE",
-    "trend": "up",
-    "seasonality": "spadki",
-    "cot": {
-      "direction": "wzrosty",
-      "value": "+40500"
-    }
+    "rynek": "COFFEE",
+    "trend": "wzrostowy",
+    "sezonowosc": "spadki",
+    "cot": "wzrosty +40500"
   },
   {
-    "market": "COTTON",
-    "trend": "down",
-    "seasonality": "wzrosty",
-    "cot": {
-      "direction": "spadki",
-      "value": "-37000"
-    }
+    "rynek": "COTTON",
+    "trend": "spadkowy",
+    "sezonowosc": "wzrosty",
+    "cot": "spadki -37000"
   },
   {
-    "market": "CORN",
-    "trend": "down",
-    "seasonality": "konsolidacja",
-    "cot": {
-      "direction": "konsolidacja",
-      "value": "-1500"
-    }
+    "rynek": "CORN",
+    "trend": "spadkowy",
+    "sezonowosc": "konsolidacja",
+    "cot": "konsolidacja -1500"
   },
   {
-    "market": "SUGAR",
-    "trend": "up",
-    "seasonality": "wzrosty",
-    "cot": {
-      "direction": "wzrosty",
-      "value": "+16800"
-    }
+    "rynek": "SUGAR",
+    "trend": "wzrostowy",
+    "sezonowosc": "wzrosty",
+    "cot": "wzrosty +16800"
   },
   {
-    "market": "SOYBEAN",
-    "trend": "down",
-    "seasonality": "spadki",
-    "cot": {
-      "direction": "spadki",
-      "value": "-50447"
-    }
+    "rynek": "SOYBEAN",
+    "trend": "spadkowy",
+    "sezonowosc": "spadki",
+    "cot": "spadki -50447"
   },
   {
-    "market": "COCOA",
-    "trend": "up",
-    "seasonality": "wzrosty",
-    "cot": {
-      "direction": "wzrosty",
-      "value": "+22000"
-    }
+    "rynek": "COCOA",
+    "trend": "wzrostowy",
+    "sezonowosc": "wzrosty",
+    "cot": "wzrosty +22000"
   },
   {
-    "market": "WHEAT",
-    "trend": "down",
-    "seasonality": "spadki",
-    "cot": {
-      "direction": "spadki",
-      "value": "-52000"
-    }
+    "rynek": "WHEAT",
+    "trend": "spadkowy",
+    "sezonowosc": "spadki",
+    "cot": "spadki -52000"
   },
   {
-    "market": "PLATINUM",
-    "trend": "down",
-    "seasonality": "wzrosty",
-    "cot": {
-      "direction": "spadki",
-      "value": "-25000"
-    }
+    "rynek": "PLATINUM",
+    "trend": "spadkowy",
+    "sezonowosc": "wzrosty",
+    "cot": "spadki -25000"
   },
   {
-    "market": "LEAN HOGS",
-    "trend": "consolidation",
-    "seasonality": "konsolidacja",
-    "cot": {
-      "direction": "konsolidacja",
-      "value": "+300"
-    }
+    "rynek": "LEAN HOGS",
+    "trend": "konsolidacja",
+    "sezonowosc": "konsolidacja",
+    "cot": "konsolidacja +300"
   },
   {
-    "market": "SILVER",
-    "trend": "up",
-    "seasonality": "wzrosty",
-    "cot": {
-      "direction": "wzrosty",
-      "value": "+47500"
-    }
+    "rynek": "SILVER",
+    "trend": "wzrostowy",
+    "sezonowosc": "wzrosty",
+    "cot": "wzrosty +47500"
   },
   {
-    "market": "XAUUSD",
-    "trend": "up",
-    "seasonality": "wzrosty",
-    "cot": {
-      "direction": "wzrosty",
-      "value": "+102000"
-    }
+    "rynek": "XAUUSD",
+    "trend": "spadkowy",
+    "sezonowosc": "wzrosty",
+    "cot": "wzrosty +21405"
   },
   {
-    "market": "COPPER",
-    "trend": "up",
-    "seasonality": "konsolidacja",
-    "cot": {
-      "direction": "spadki",
-      "value": "-31200"
-    }
+    "rynek": "COPPER",
+    "trend": "wzrostowy",
+    "sezonowosc": "konsolidacja",
+    "cot": "spadki -31200"
   },
   {
-    "market": "NATURAL GAS",
-    "trend": "down",
-    "seasonality": "spadki",
-    "cot": {
-      "direction": "spadki",
-      "value": "-58700"
-    }
+    "rynek": "NATURAL GAS",
+    "trend": "spadkowy",
+    "sezonowosc": "spadki",
+    "cot": "spadki -58700"
   },
   {
-    "market": "US500",
-    "trend": "up",
-    "seasonality": "wzrosty",
-    "cot": {
-      "direction": "wzrosty",
-      "value": "+90200"
-    }
+    "rynek": "US500",
+    "trend": "wzrostowy",
+    "sezonowosc": "wzrosty",
+    "cot": "wzrosty +90200"
   },
   {
-    "market": "OIL",
-    "trend": "up",
-    "seasonality": "wzrosty",
-    "cot": {
-      "direction": "wzrosty",
-      "value": "+64000"
-    }
+    "rynek": "OIL",
+    "trend": "wzrostowy",
+    "sezonowosc": "wzrosty",
+    "cot": "wzrosty +64000"
+  },
+  {
+    "rynek": "SOYBEAN",
+    "trend": "spadkowy",
+    "sezonowosc": "spadki",
+    "cot": "spadki -50447"
   }
 ]

@@ -1,6 +1,6 @@
-body { font-family: Arial, sans-serif; background: #f0f0f0; padding: 20px; }
+body { font-family: Arial; background: #f0f0f0; padding: 20px; }
 h1, h2 { color: #333; }
-button { padding: 10px 20px; font-size: 16px; margin-right: 10px; margin-bottom: 20px; }
+button { padding: 10px; margin: 10px 10px 20px 0; font-size: 16px; }
 form label { display: block; margin-bottom: 10px; }
-input, select { padding: 5px; font-size: 14px; width: 200px; }
-#output div, #positions div { background: #fff; padding: 10px; margin-bottom: 10px; border-radius: 6px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+input, select { width: 200px; padding: 5px; margin-bottom: 10px; }
+#output div, #positions div { background: #fff; padding: 10px; margin-bottom: 10px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
