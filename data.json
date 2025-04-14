@@ -5,7 +5,7 @@
     "seasonality": "spadki",
     "cot": {
       "direction": "wzrosty",
-      "value": "+57000"
+      "value": "+40500"
     }
   },
   {
@@ -14,34 +14,34 @@
     "seasonality": "wzrosty",
     "cot": {
       "direction": "spadki",
-      "value": "-43000"
+      "value": "-37000"
     }
   },
   {
     "market": "CORN",
-    "trend": "up",
+    "trend": "down",
     "seasonality": "konsolidacja",
     "cot": {
       "direction": "konsolidacja",
-      "value": "+2000"
+      "value": "-1500"
     }
   },
   {
     "market": "SUGAR",
-    "trend": "down",
+    "trend": "up",
     "seasonality": "wzrosty",
     "cot": {
       "direction": "wzrosty",
-      "value": "+32000"
+      "value": "+16800"
     }
   },
   {
     "market": "SOYBEAN",
-    "trend": "consolidation",
+    "trend": "down",
     "seasonality": "spadki",
     "cot": {
       "direction": "spadki",
-      "value": "-66634"
+      "value": "-50447"
     }
   },
   {
@@ -50,7 +50,7 @@
     "seasonality": "wzrosty",
     "cot": {
       "direction": "wzrosty",
-      "value": "+21500"
+      "value": "+22000"
     }
   },
   {
@@ -59,16 +59,16 @@
     "seasonality": "spadki",
     "cot": {
       "direction": "spadki",
-      "value": "-51000"
+      "value": "-52000"
     }
   },
   {
     "market": "PLATINUM",
-    "trend": "up",
+    "trend": "down",
     "seasonality": "wzrosty",
     "cot": {
-      "direction": "wzrosty",
-      "value": "+18000"
+      "direction": "spadki",
+      "value": "-25000"
     }
   },
   {
@@ -77,7 +77,7 @@
     "seasonality": "konsolidacja",
     "cot": {
       "direction": "konsolidacja",
-      "value": "+1000"
+      "value": "+300"
     }
   },
   {
@@ -86,7 +86,7 @@
     "seasonality": "wzrosty",
     "cot": {
       "direction": "wzrosty",
-      "value": "+40500"
+      "value": "+47500"
     }
   },
   {
@@ -95,16 +95,16 @@
     "seasonality": "wzrosty",
     "cot": {
       "direction": "wzrosty",
-      "value": "+99000"
+      "value": "+102000"
     }
   },
   {
     "market": "COPPER",
-    "trend": "down",
+    "trend": "up",
     "seasonality": "konsolidacja",
     "cot": {
       "direction": "spadki",
-      "value": "-28000"
+      "value": "-31200"
     }
   },
   {
@@ -113,7 +113,7 @@
     "seasonality": "spadki",
     "cot": {
       "direction": "spadki",
-      "value": "-54000"
+      "value": "-58700"
     }
   },
   {
@@ -122,16 +122,16 @@
     "seasonality": "wzrosty",
     "cot": {
       "direction": "wzrosty",
-      "value": "+87000"
+      "value": "+90200"
     }
   },
   {
     "market": "OIL",
     "trend": "up",
-    "seasonality": "spadki",
+    "seasonality": "wzrosty",
     "cot": {
       "direction": "wzrosty",
-      "value": "+62000"
+      "value": "+64000"
     }
   }
 ]

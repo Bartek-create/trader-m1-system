@@ -15,7 +15,6 @@ function loadData() {
     })
     .catch(err => {
       document.getElementById('output').innerHTML = 'Błąd ładowania danych.';
-      console.error(err);
     });
 }
 
